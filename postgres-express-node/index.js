@@ -150,6 +150,7 @@ user_1.ability = defineAbilityFor(user_1);
 user_2.ability = defineAbilityFor(user_2);
 anonymous.ability = defineAbilityFor(anonymous);
 
+
 const userDetails = (user) =>
   user.id
     ? `\nUser ${user.id} with role ${user.role.toUpperCase()}`
